@@ -1,84 +1,104 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
     <title>Login Page</title>
 
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
     <link rel="stylesheet" th:href="@{/static/css/bootstrap.css}"/>
     <link rel="stylesheet" th:href="@{/static/css/app.css}"/>
     <link rel="stylesheet" type="text/css"
           href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css"/>
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" th:href="@{/static/css/dashboard.css}"/>
+
 </head>
 
 <body>
 
-<br>
-<p th:block th:insert="authheader"></p>
+<span th:block th:insert="authheader"></span>
 
-<div class="generic-container">
+<div class="container-fluid">
+    <div class="row">
 
-    <div class="panel panel-default">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+            <div class="sidebar-sticky">
+                <ul class="navbar-light">
+                    <a class="nav-link" th:href="@{/list}">Admin</a>
+                    <a class="nav-link" href="#">User</a>
+                </ul>
+            </div>
+        </nav>
 
-        <!-- Default panel contents -->
-        <div class="panel-heading"><span class="lead">List of Users </span></div>
 
-        <table class="table table-hover">
-            <thead>
-            <tr>
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
 
-                <th>Firstname</th>
-                <th>Lastname</th>
-                <th>Email</th>
-                <th>SSO ID</th>
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+                <h1 class="h2">Admin Panel</h1>
+            </div>
 
-                <div th:if="${#request.isUserInRole('ROLE_DBA') || #request.isUserInRole('ROLE_ADMIN')}">
-                    <th width="100"></th>
+            <div class="panel panel-default">
+                <!-- Default panel contents -->
+                <div class="panel-heading"><span class="lead">List of Users </span></div>
+
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                        <th>SSO ID</th>
+
+                        <div th:if="${#request.isUserInRole('ROLE_DBA') || #request.isUserInRole('ROLE_ADMIN')}">
+                            <th width="100"></th>
+                        </div>
+
+                        <div th:if="${#request.isUserInRole('ROLE_ADMIN')}">
+                            <th width="20"></th>
+                        </div>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+
+                    <tr th:each="user : ${users}">
+
+                        <td th:text="${user.firstName}"></td>
+                        <td th:text="${user.lastName}"></td>
+                        <td th:text="${user.email}"></td>
+                        <td th:text="${user.ssoId}"></td>
+
+
+                        <div th:if="${#request.isUserInRole('ROLE_DBA') || #request.isUserInRole('ROLE_ADMIN')}">
+                            <td><a th:href="@{'/edit-user-'+${user.ssoId}}"
+                                   class="btn btn-success custom-width">edit</a>
+                            </td>
+                        </div>
+
+                        <div th:if="${#request.isUserInRole('ROLE_ADMIN')}">
+                            <td><a th:href="@{'/delete-user-'+${user.ssoId}}"
+                                   class="btn btn-danger custom-width">delete</a>
+                            </td>
+                        </div>
+                    </tr>
+
+                    </tbody>
+
+                </table>
+            </div>
+
+            <div th:if="${#request.isUserInRole('ROLE_ADMIN')}">
+                <div class="well">
+                    <a th:href="@{'/newuser'}">Add New User</a>
                 </div>
-
-                <div th:if="${#request.isUserInRole('ROLE_ADMIN')}">
-                    <th width="20"></th>
-                </div>
-
-            </tr>
-            </thead>
-
-            <tbody>
-
-            <tr th:each="user : ${users}">
-
-                <td th:text="${user.firstName}"></td>
-                <td th:text="${user.lastName}"></td>
-                <td th:text="${user.email}"></td>
-                <td th:text="${user.ssoId}"></td>
-
-
-                <div th:if="${#request.isUserInRole('ROLE_DBA') || #request.isUserInRole('ROLE_ADMIN')}">
-                    <td><a th:href="@{'/edit-user-'+${user.ssoId}}"
-                           class="btn btn-success custom-width">edit</a>
-                    </td>
-                </div>
-
-                <div th:if="${#request.isUserInRole('ROLE_ADMIN')}">
-                    <td><a th:href="@{'/delete-user-'+${user.ssoId}}"
-                           class="btn btn-danger custom-width">delete</a>
-                    </td>
-                </div>
-
-            </tr>
-
-            </tbody>
-
-        </table>
+            </div>
+        </main>
     </div>
-
-    <div th:if="${#request.isUserInRole('ROLE_ADMIN')}">
-        <div class="well">
-            <a th:href="@{'/newuser'}">Add New User</a>
-        </div>
-    </div>
-
 </div>
-
 </body>
 </html>
