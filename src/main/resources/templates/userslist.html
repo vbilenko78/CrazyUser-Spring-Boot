@@ -15,16 +15,19 @@
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" th:href="@{/static/css/dashboard.css}"/>
+    <link rel="stylesheet" th:href="@{/static/css/tabs.css}"/>
 
 </head>
 
 <body>
 
+<!--NavBar-->
 <span th:block th:insert="authheader"></span>
 
 <div class="container-fluid">
     <div class="row">
 
+        <!--SideBar-->
         <nav class="col-md-2 d-none d-md-block bg-light sidebar">
             <div class="sidebar-sticky">
                 <ul class="navbar-light">
@@ -35,70 +38,146 @@
         </nav>
 
 
+        <!--Main Window-->
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
 
-            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-                <h1 class="h2">Admin Panel</h1>
-            </div>
+            <!--<span class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">-->
+            <!--<h1 class="h2">Admin Panel</h1>-->
+            <!--</span>-->
 
-            <div class="panel panel-default">
-                <!-- Default panel contents -->
-                <div class="panel-heading"><span class="lead">List of Users </span></div>
+            <!--tabs start here!!!-->
 
-                <table class="table table-hover">
-                    <thead>
-                    <tr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Admin Panel</h3>
 
-                        <th>Firstname</th>
-                        <th>Lastname</th>
-                        <th>Email</th>
-                        <th>SSO ID</th>
+                        <div class="tabbable-panel">
+                            <div class="tabbable-line">
+                                <ul class="nav nav-tabs ">
+                                    <li class="active">
+                                        <a href="#tab_default_1" data-toggle="tab">
+                                            Users List</a>
+                                    </li>
+                                    <li>
+                                        <a href="#tab_default_2" data-toggle="tab">
+                                            New User</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="tab_default_1">
 
-                        <div th:if="${#request.isUserInRole('ROLE_DBA') || #request.isUserInRole('ROLE_ADMIN')}">
-                            <th width="100"></th>
+                                        <div class="panel-heading"><span class="lead">List of Users </span>
+
+                                            <table class="table table-hover shadow p-3 mb-5 bg-white rounded">
+                                                <thead>
+                                                <tr>
+
+                                                    <th>Firstname</th>
+                                                    <th>Lastname</th>
+                                                    <th>Email</th>
+                                                    <th>SSO ID</th>
+
+                                                    <div th:if="${#request.isUserInRole('ROLE_DBA') || #request.isUserInRole('ROLE_ADMIN')}">
+                                                        <th width="100"></th>
+                                                    </div>
+
+                                                    <div th:if="${#request.isUserInRole('ROLE_ADMIN')}">
+                                                        <th width="20"></th>
+                                                    </div>
+                                                </tr>
+                                                </thead>
+
+
+                                                <tr th:each="user : ${users}">
+
+                                                    <td th:text="${user.firstName}"></td>
+                                                    <td th:text="${user.lastName}"></td>
+                                                    <td th:text="${user.email}"></td>
+                                                    <td th:text="${user.ssoId}"></td>
+
+
+                                                    <div th:if="${#request.isUserInRole('ROLE_DBA') || #request.isUserInRole('ROLE_ADMIN')}">
+                                                        <td><a th:href="@{'/edit-user-'+${user.ssoId}}"
+                                                               class="btn btn-success custom-width">edit</a>
+                                                        </td>
+                                                    </div>
+
+                                                    <div th:if="${#request.isUserInRole('ROLE_ADMIN')}">
+                                                        <td><a th:href="@{'/delete-user-'+${user.ssoId}}"
+                                                               class="btn btn-danger custom-width">delete</a>
+                                                        </td>
+                                                    </div>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane" id="tab_default_2">
+                                        <div>
+                                            I'm in Tab 2.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-                        <div th:if="${#request.isUserInRole('ROLE_ADMIN')}">
-                            <th width="20"></th>
-                        </div>
-                    </tr>
-                    </thead>
-
-                    <tbody>
-
-                    <tr th:each="user : ${users}">
-
-                        <td th:text="${user.firstName}"></td>
-                        <td th:text="${user.lastName}"></td>
-                        <td th:text="${user.email}"></td>
-                        <td th:text="${user.ssoId}"></td>
-
-
-                        <div th:if="${#request.isUserInRole('ROLE_DBA') || #request.isUserInRole('ROLE_ADMIN')}">
-                            <td><a th:href="@{'/edit-user-'+${user.ssoId}}"
-                                   class="btn btn-success custom-width">edit</a>
-                            </td>
-                        </div>
-
-                        <div th:if="${#request.isUserInRole('ROLE_ADMIN')}">
-                            <td><a th:href="@{'/delete-user-'+${user.ssoId}}"
-                                   class="btn btn-danger custom-width">delete</a>
-                            </td>
-                        </div>
-                    </tr>
-
-                    </tbody>
-
-                </table>
-            </div>
-
-            <div th:if="${#request.isUserInRole('ROLE_ADMIN')}">
-                <div class="well">
-                    <a th:href="@{'/newuser'}">Add New User</a>
+                    </div>
                 </div>
             </div>
+
+            <!--tabs end here!!!-->
+
+            <!--<div class="panel-heading"><span class="lead">List of Users </span>-->
+
+            <!--<table class="table table-hover shadow p-3 mb-5 bg-white rounded">-->
+            <!--<thead>-->
+            <!--<tr>-->
+
+            <!--<th>Firstname</th>-->
+            <!--<th>Lastname</th>-->
+            <!--<th>Email</th>-->
+            <!--<th>SSO ID</th>-->
+
+            <!--<div th:if="${#request.isUserInRole('ROLE_DBA') || #request.isUserInRole('ROLE_ADMIN')}">-->
+            <!--<th width="100"></th>-->
+            <!--</div>-->
+
+            <!--<div th:if="${#request.isUserInRole('ROLE_ADMIN')}">-->
+            <!--<th width="20"></th>-->
+            <!--</div>-->
+            <!--</tr>-->
+            <!--</thead>-->
+
+
+            <!--<tr th:each="user : ${users}">-->
+
+            <!--<td th:text="${user.firstName}"></td>-->
+            <!--<td th:text="${user.lastName}"></td>-->
+            <!--<td th:text="${user.email}"></td>-->
+            <!--<td th:text="${user.ssoId}"></td>-->
+
+
+            <!--<div th:if="${#request.isUserInRole('ROLE_DBA') || #request.isUserInRole('ROLE_ADMIN')}">-->
+            <!--<td><a th:href="@{'/edit-user-'+${user.ssoId}}"-->
+            <!--class="btn btn-success custom-width">edit</a>-->
+            <!--</td>-->
+            <!--</div>-->
+
+            <!--<div th:if="${#request.isUserInRole('ROLE_ADMIN')}">-->
+            <!--<td><a th:href="@{'/delete-user-'+${user.ssoId}}"-->
+            <!--class="btn btn-danger custom-width">delete</a>-->
+            <!--</td>-->
+            <!--</div>-->
+            <!--</tr>-->
+            <!--</table>-->
+            <!--</div>-->
         </main>
     </div>
 </div>
+
+<!-- include javascript in the footer -->
+<script type="text/javascript" th:src="@{/static/js/jquery-1.8.1.min.js}"></script>
+<script type="text/javascript" th:src="@{/static/js/bootstrap.min.js}"></script>
+
 </body>
 </html>
