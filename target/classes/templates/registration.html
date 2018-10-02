@@ -89,14 +89,11 @@
 
             <div class="row">
                 <button type="submit" class="btn btn-primary btn-sm" th:text="${edit==true?'Update': 'Create'}">
-                    Add
-                    User
                 </button>
-                or
-                <a th:href="@{/list}">Cancel</a>
+                &nbsp
+                &nbsp
+                <a th:href="@{/list}" class="btn btn-primary btn-sm">Cancel</a>
             </div>
-
-            <!--<input type="hidden" name="userProfiles" th:field="${user.getUserProfiles()}"/>-->
         </form>
     </div>
 
@@ -174,15 +171,11 @@
 
             <div class="row">
                 <button type="submit" class="btn btn-primary btn-sm" th:text="${edit==true?'Update': 'Create'}">
-                    Add
-                    User
                 </button>
-                or
-                <a th:href="@{/list}">Cancel</a>
+                &nbsp
+                &nbsp
+                <a th:href="@{/list}" class="btn btn-primary btn-sm">Cancel</a>
             </div>
-
-            <!--<input type="hidden" name="userProfiles" th:field="${user.getUserProfiles()}"/>-->
-
         </form>
     </div>
 

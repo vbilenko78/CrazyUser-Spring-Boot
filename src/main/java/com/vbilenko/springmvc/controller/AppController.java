@@ -11,6 +11,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
@@ -164,6 +165,14 @@ public class AppController {
         return "login";
     }
 
+    /**
+     * This method retrieves user's welcome page
+     */
+    @RequestMapping(value = "/userpage", method = RequestMethod.GET)
+    public String userPage() {
+        return "userpage";
+    }
+
 
     /**
      * This method handles logout requests.
@@ -193,5 +202,4 @@ public class AppController {
         }
         return userName;
     }
-
 }

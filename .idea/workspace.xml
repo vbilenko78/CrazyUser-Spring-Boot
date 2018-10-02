@@ -7,11 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6166ce39-42f9-4b2c-b3a1-ae5d7ce53871" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userpage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/controller/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userslist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userslist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/controller/AppController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/controller/AppController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/registration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/userslist.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userslist.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -123,63 +126,68 @@
     <session id="1209541142">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="app_user" value="4" />
           <entry key="class" value="2" />
-          <entry key="css" value="17" />
-          <entry key="html" value="48" />
+          <entry key="css" value="18" />
+          <entry key="html" value="70" />
           <entry key="iml" value="1" />
-          <entry key="java" value="123" />
+          <entry key="java" value="127" />
           <entry key="js" value="3" />
           <entry key="map" value="1" />
           <entry key="properties" value="16" />
           <entry key="sql" value="1" />
+          <entry key="thymes" value="1" />
           <entry key="xml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="CSS" value="17" />
+          <entry key="CSS" value="18" />
           <entry key="Database Element" value="4" />
-          <entry key="HTML" value="48" />
+          <entry key="HTML" value="70" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="123" />
+          <entry key="JAVA" value="127" />
           <entry key="JavaScript" value="3" />
           <entry key="Properties" value="16" />
           <entry key="Scratch" value="1" />
           <entry key="SourceMap" value="1" />
+          <entry key="ThymeleafExpressions" value="1" />
           <entry key="XML" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="16" />
-          <entry key="html" value="1712" />
-          <entry key="java" value="80" />
+          <entry key="css" value="18" />
+          <entry key="html" value="2534" />
+          <entry key="java" value="178" />
           <entry key="properties" value="61" />
           <entry key="sql" value="8" />
-          <entry key="txt" value="128" />
+          <entry key="thymes" value="1" />
+          <entry key="txt" value="150" />
           <entry key="xml" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="16" />
-          <entry key="HTML" value="1712" />
-          <entry key="JAVA" value="80" />
-          <entry key="PLAIN_TEXT" value="128" />
+          <entry key="CSS" value="18" />
+          <entry key="HTML" value="2534" />
+          <entry key="JAVA" value="178" />
+          <entry key="PLAIN_TEXT" value="150" />
           <entry key="Properties" value="61" />
           <entry key="Scratch" value="8" />
+          <entry key="ThymeleafExpressions" value="1" />
           <entry key="XML" value="59" />
         </counts>
       </usages-collector>
@@ -193,21 +201,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/userslist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="55" column="55" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
+            <state relative-caret-position="150">
+              <caret line="55" column="81" selection-start-line="55" selection-start-column="78" selection-end-line="55" selection-end-column="81" />
               <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#link#3;n#head#0;n#html#0;n#!!top" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/controller/AppController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -217,8 +217,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -235,6 +235,8 @@
       <find>jpa</find>
       <find>passwordEncoder</find>
       <find>hove</find>
+      <find>or</find>
+      <find>cancel</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -283,12 +285,14 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/css/signin.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/css/app.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/authheader.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/css/dashboard.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/css/tabs.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/css/jquery-1.8.1.min.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/userpage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/regtable.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/controller/AppController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/app.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/registration.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/userslist.html" />
       </list>
@@ -350,6 +354,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -431,13 +437,19 @@
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CrazyUsers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrazyUsers" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,7 +462,7 @@
     <property name="SearchEverywhereHistoryKey" value="newUser&#9;null&#9;null&#10;customUserDetailsService&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538365207659" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538442083468" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -600,7 +612,11 @@
       <workItem from="1538279379791" duration="3235000" />
       <workItem from="1538282634425" duration="395000" />
       <workItem from="1538283177820" duration="35991000" />
-      <workItem from="1538362439324" duration="2699000" />
+      <workItem from="1538362439324" duration="3072000" />
+      <workItem from="1538365890068" duration="1589000" />
+      <workItem from="1538410205482" duration="4109000" />
+      <workItem from="1538416803310" duration="4415000" />
+      <workItem from="1538430362527" duration="5363000" />
     </task>
     <task id="LOCAL-00001" summary="Configured Database connection in IntelliJ">
       <created>1536441819575</created>
@@ -749,11 +765,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538352225614</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Bootstrap - user list tab is ready">
+      <created>1538365245805</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1538365245805</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214870000" />
+    <option name="totallyTimeSpent" value="230719000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -768,7 +791,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.22460657" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.21101573" />
       <window_info id="Structure" order="1" sideWeight="0.50190115" side_tool="true" weight="0.26466382" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -897,14 +920,14 @@
     <MESSAGE value="Bootstrap - NavBar for Admin page" />
     <MESSAGE value="Bootstrap - NavBar links" />
     <MESSAGE value="Bootstrap - beginning of tabs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap - beginning of tabs" />
+    <MESSAGE value="Bootstrap - user list tab is ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap - user list tab is ready" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/configuration/AppConfig.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/model/UserProfile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1118,13 +1141,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/signin.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1164,15 +1180,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registrationsuccess.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="254">
           <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
         </state>
       </provider>
@@ -1184,25 +1197,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/regtable.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/controller/AppController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="121" column="75" lean-forward="true" selection-start-line="121" selection-start-column="75" selection-end-line="121" selection-end-column="75" />
+        <state relative-caret-position="1069">
+          <caret line="171" column="30" lean-forward="true" selection-start-line="171" selection-start-column="30" selection-end-line="171" selection-end-column="30" />
+          <folding>
+            <element signature="e#5799#5800#0" expanded="true" />
+            <element signature="e#5829#5830#0" expanded="true" />
+            <element signature="e#6065#6066#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/controller/AppController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+        <state relative-caret-position="708">
+          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/userpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#link#3;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="95" column="18" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/userslist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="55" column="55" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
+        <state relative-caret-position="150">
+          <caret line="55" column="81" selection-start-line="55" selection-start-column="78" selection-end-line="55" selection-end-column="81" />
           <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
             <element signature="n#link#3;n#head#0;n#html#0;n#!!top" />
           </folding>
