@@ -44,6 +44,14 @@ public class UserDaoImpl extends AbstractDao<Integer, User> implements UserDao {
         return (List<User>) criteria.list();
     }
 
+    @Override
+    public void deleteById(Long id) {
+        Criteria crit = createEntityCriteria();
+        crit.add(Restrictions.eq("ssoId", id));
+        User user = (User) crit.uniqueResult();
+        delete(user);
+    }
+
     public void save(User user) {
         persist(user);
     }

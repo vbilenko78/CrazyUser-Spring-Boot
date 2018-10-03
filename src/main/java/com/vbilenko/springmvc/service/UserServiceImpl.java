@@ -59,6 +59,10 @@ public class UserServiceImpl implements UserService {
         dao.deleteBySSO(sso);
     }
 
+    public void deleteById(Long id){
+        dao.deleteById(id);
+    }
+
     public List<User> findAllUsers() {
         return dao.findAllUsers();
     }
