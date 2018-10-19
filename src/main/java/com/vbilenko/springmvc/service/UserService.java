@@ -11,7 +11,7 @@ public interface UserService {
 	
 	User findBySSO(String sso);
 	
-	void saveUser(User user);
+	User saveUser(User user);
 	
 	void updateUser(User user);
 	

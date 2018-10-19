@@ -62,12 +62,11 @@ public class UserController {
     }
 
     @PostMapping
-    public void createStudent(@RequestBody User user) {
-        User savedStudent = userService.saveUser(user);
-
+    public ResponseEntity<Object> createStudent(@RequestBody User user) {
+        User savedUser = userService.saveUser(user);
         URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}")
-                .buildAndExpand(savedStudent.getId()).toUri();
-
+                .buildAndExpand(savedUser.getId()).toUri();
+        return ResponseEntity.created(location).build();
 
     }
 }

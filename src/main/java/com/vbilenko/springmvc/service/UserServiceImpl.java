@@ -30,9 +30,10 @@ public class UserServiceImpl implements UserService {
         return user;
     }
 
-    public void saveUser(User user) {
+    public User saveUser(User user) {
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         dao.save(user);
+        return user;
     }
 
     /*
@@ -42,9 +43,9 @@ public class UserServiceImpl implements UserService {
      */
     public void updateUser(User user) {
         User entity = dao.findById(user.getId());
-        if(entity!=null){
+        if (entity != null) {
             entity.setSsoId(user.getSsoId());
-            if(!user.getPassword().equals(entity.getPassword())){
+            if (!user.getPassword().equals(entity.getPassword())) {
                 entity.setPassword(passwordEncoder.encode(user.getPassword()));
             }
             entity.setFirstName(user.getFirstName());
@@ -59,7 +60,7 @@ public class UserServiceImpl implements UserService {
         dao.deleteBySSO(sso);
     }
 
-    public void deleteById(int id){
+    public void deleteById(int id) {
         dao.deleteById(id);
     }
 
