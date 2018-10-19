@@ -5,7 +5,9 @@ import com.vbilenko.springmvc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import java.net.URI;
 import java.util.List;
 import java.util.Optional;
 
@@ -48,9 +50,24 @@ public class UserController {
         return ResponseEntity.ok().build();
     }
 
+
     @PutMapping("/{id}")
-    public void updateUser(@PathVariable int id) {
-        User user = userService.findById(id);
+    public ResponseEntity<Object> updateStudent(@RequestBody User user, @PathVariable int id) {
+        Optional<User> studentOptional = Optional.ofNullable(userService.findById(id));
+        if (!studentOptional.isPresent())
+            return ResponseEntity.notFound().build();
+        user.setId(id);
         userService.updateUser(user);
+        return ResponseEntity.noContent().build();
+    }
+
+    @PostMapping
+    public void createStudent(@RequestBody User user) {
+        User savedStudent = userService.saveUser(user);
+
+        URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}")
+                .buildAndExpand(savedStudent.getId()).toUri();
+
+
     }
 }
