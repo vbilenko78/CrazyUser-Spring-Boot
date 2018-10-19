@@ -7,30 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6166ce39-42f9-4b2c-b3a1-ae5d7ce53871" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/controller/rest/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/ApplicationEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/ApplicationEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/controller/rest/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/controller/rest/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/security/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/security/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/security/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/security/SecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/ApplicationEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/ApplicationEntry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/converter/RoleToUserProfileConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/converter/RoleToUserProfileConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/dao/AbstractDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/dao/AbstractDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/dao/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/dao/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/dao/UserProfileDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/dao/UserProfileDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/dao/UserProfileDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/dao/UserProfileDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/model/UserProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/model/UserProfile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/model/UserProfileType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/model/UserProfileType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/dao/UserDaoImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/security/CustomUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/security/CustomUserDetailsService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/security/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/security/SecurityConfiguration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/security/SecurityWebApplicationInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/security/SecurityWebApplicationInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/service/UserProfileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/service/UserProfileService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/service/UserProfileServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/service/UserProfileServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vbilenko/springmvc/service/UserServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -141,56 +133,57 @@
     <session id="1209541142">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="app_user" value="6" />
-          <entry key="class" value="4" />
+          <entry key="app_user" value="7" />
+          <entry key="class" value="8" />
           <entry key="css" value="19" />
           <entry key="html" value="70" />
           <entry key="iml" value="1" />
-          <entry key="java" value="155" />
+          <entry key="java" value="189" />
           <entry key="js" value="5" />
           <entry key="map" value="1" />
-          <entry key="properties" value="19" />
+          <entry key="properties" value="21" />
           <entry key="sql" value="1" />
           <entry key="thymes" value="1" />
-          <entry key="xml" value="15" />
+          <entry key="xml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="4" />
+          <entry key="CLASS" value="8" />
           <entry key="CSS" value="19" />
-          <entry key="Database Element" value="6" />
+          <entry key="Database Element" value="7" />
           <entry key="HTML" value="70" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="155" />
+          <entry key="JAVA" value="189" />
           <entry key="JavaScript" value="5" />
-          <entry key="Properties" value="19" />
+          <entry key="Properties" value="21" />
           <entry key="Scratch" value="1" />
           <entry key="SourceMap" value="1" />
           <entry key="ThymeleafExpressions" value="1" />
-          <entry key="XML" value="15" />
+          <entry key="XML" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="18" />
           <entry key="html" value="2534" />
-          <entry key="java" value="814" />
-          <entry key="properties" value="62" />
+          <entry key="java" value="1101" />
+          <entry key="properties" value="78" />
           <entry key="sql" value="8" />
           <entry key="thymes" value="1" />
-          <entry key="txt" value="170" />
+          <entry key="txt" value="196" />
           <entry key="xml" value="59" />
         </counts>
       </usages-collector>
@@ -198,9 +191,9 @@
         <counts>
           <entry key="CSS" value="18" />
           <entry key="HTML" value="2534" />
-          <entry key="JAVA" value="814" />
-          <entry key="PLAIN_TEXT" value="170" />
-          <entry key="Properties" value="62" />
+          <entry key="JAVA" value="1101" />
+          <entry key="PLAIN_TEXT" value="196" />
+          <entry key="Properties" value="78" />
           <entry key="Scratch" value="8" />
           <entry key="ThymeleafExpressions" value="1" />
           <entry key="XML" value="59" />
@@ -216,24 +209,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/controller/rest/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+            <state relative-caret-position="213">
+              <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#1507#1508#0" expanded="true" />
                 <element signature="e#1556#1557#0" expanded="true" />
-                <element signature="e#2249#2250#0" expanded="true" />
-                <element signature="e#2291#2292#0" expanded="true" />
-                <marker date="1538605221362" expanded="true" signature="1559:1892" ph="..." />
+                <marker date="1539915260528" expanded="true" signature="741:1074" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -263,6 +246,7 @@
       <find>hove</find>
       <find>or</find>
       <find>cancel</find>
+      <find>password</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -291,7 +275,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/messages.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userslist.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/converter/RoleToUserProfileConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/ApplicationEntry.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/configuration/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/configuration/AppInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/model/User.java" />
@@ -302,9 +285,6 @@
         <option value="$PROJECT_DIR$/src/main/java/resources/config/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/accessDenied.html" />
         <option value="$PROJECT_DIR$/src/main/resources/views/accessDenied.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/security/SecurityWebApplicationInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/security/CustomUserDetailsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/security/SecurityConfiguration.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/af1a5845-3968-41ae-bb95-d668fa18478d/console.sql" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
@@ -318,12 +298,16 @@
         <option value="$PROJECT_DIR$/src/main/webapp/static/css/app.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/registration.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/userslist.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/controller/AppController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/security/SecurityWebApplicationInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/security/CustomUserDetailsService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/ApplicationEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/controller/AppController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/security/SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/dao/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/controller/rest/UserController.java" />
       </list>
     </option>
@@ -384,6 +368,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -461,6 +447,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyUsers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrazyUsers" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -470,12 +465,84 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CrazyUsers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="CrazyUsers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="CrazyUsers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.0.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyUsers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.0.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyUsers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.0.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyUsers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.0.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyUsers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-aop:5.0.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="CrazyUsers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-aop:5.0.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-aop-5.0.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyUsers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-aop:5.0.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-aop-5.0.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyUsers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-aop:5.0.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-aop-5.0.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyUsers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-aop:5.0.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-aop-5.0.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -488,7 +555,7 @@
     <property name="SearchEverywhereHistoryKey" value="newUser&#9;null&#9;null&#10;customUserDetailsService&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538605400042" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539915268655" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -645,7 +712,8 @@
       <workItem from="1538430362527" duration="6065000" />
       <workItem from="1538516873989" duration="1591000" />
       <workItem from="1538537507065" duration="5477000" />
-      <workItem from="1538581313699" duration="8288000" />
+      <workItem from="1538581313699" duration="8932000" />
+      <workItem from="1538660254884" duration="9287000" />
     </task>
     <task id="LOCAL-00001" summary="Configured Database connection in IntelliJ">
       <created>1536441819575</created>
@@ -808,11 +876,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538442271108</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="REST - GET methods working">
+      <created>1538605438845</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1538605438845</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246761000" />
+    <option name="totallyTimeSpent" value="256692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -827,7 +902,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.21959943" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.22246066" />
       <window_info id="Structure" order="1" sideWeight="0.50190115" side_tool="true" weight="0.26466382" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -837,8 +912,8 @@
       <window_info id="Web" order="7" sideWeight="0.50190115" side_tool="true" weight="0.26466382" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.3388535" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2433121" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.3732484" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44713375" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
@@ -958,27 +1033,14 @@
     <MESSAGE value="Bootstrap - beginning of tabs" />
     <MESSAGE value="Bootstrap - user list tab is ready" />
     <MESSAGE value="Bootstrap - almost final version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap - almost final version" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/controller/rest/UserController.java</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="REST - GET methods working" />
+    <option name="LAST_COMMIT_MESSAGE" value="REST - GET methods working" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/accessDenied.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/messages.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/views/registration.html" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/config/application.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/java/resources/views/login.html" />
@@ -991,20 +1053,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/dao/UserProfileDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/dao/UserProfileDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CrazyUsers.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-25" />
@@ -1014,34 +1062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/security/SecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/security/CustomUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/security/SecurityWebApplicationInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1140,11 +1160,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#link#3;n#head#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1156,42 +1171,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/bootstrap.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-209">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/ApplicationEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1202,13 +1190,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/service/UserProfileService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/service/UserProfileServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1216,38 +1197,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/controller/AppController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="30" lean-forward="true" selection-start-column="2" selection-end-line="204" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="78" column="98" selection-start-line="78" selection-start-column="98" selection-end-line="78" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/dao/AbstractDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://af1a5845-3968-41ae-bb95-d668fa18478d/schema/employee/table/app_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1261,44 +1214,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/dao/UserDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/service/UserProfileService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        <state relative-caret-position="210">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/service/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/model/UserProfile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1769#1770#0" expanded="true" />
-            <element signature="e#1805#1806#0" expanded="true" />
-            <element signature="e#1843#1844#0" expanded="true" />
-            <element signature="e#1877#1878#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://af1a5845-3968-41ae-bb95-d668fa18478d/schema/employee/table/app_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/security/SecurityWebApplicationInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="37" />
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/dao/UserProfileDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/dao/UserProfileDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/security/CustomUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1769#1770#0" expanded="true" />
+            <element signature="e#1805#1806#0" expanded="true" />
+            <element signature="e#1842#1843#0" expanded="true" />
+            <element signature="e#1876#1877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/security/SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2405#2406#0" expanded="true" />
+            <element signature="e#2455#2456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="78" column="98" selection-start-line="78" selection-start-column="98" selection-end-line="78" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/ApplicationEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.9.RELEASE/spring-aop-5.0.9.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="94" column="209" selection-start-line="94" selection-start-column="209" selection-end-line="94" selection-end-column="209" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vbilenko/springmvc/controller/rest/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        <state relative-caret-position="213">
+          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#1507#1508#0" expanded="true" />
             <element signature="e#1556#1557#0" expanded="true" />
-            <element signature="e#2249#2250#0" expanded="true" />
-            <element signature="e#2291#2292#0" expanded="true" />
-            <marker date="1538605221362" expanded="true" signature="1559:1892" ph="..." />
+            <marker date="1539915260528" expanded="true" signature="741:1074" ph="..." />
           </folding>
         </state>
       </provider>

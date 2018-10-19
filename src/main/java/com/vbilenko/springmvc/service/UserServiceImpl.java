@@ -59,7 +59,7 @@ public class UserServiceImpl implements UserService {
         dao.deleteBySSO(sso);
     }
 
-    public void deleteById(Long id){
+    public void deleteById(int id){
         dao.deleteById(id);
     }
 
